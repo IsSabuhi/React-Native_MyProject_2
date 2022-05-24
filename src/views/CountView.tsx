@@ -1,11 +1,17 @@
-import { View, Text, StyleSheet } from 'react-native'
+import { View, StyleSheet } from 'react-native'
 import React from 'react'
+import { Text } from '@rneui/base';
+import CountComponent from '../components/CountComponent';
 
-export default function CountView() {
+interface Props { 
+    name: string;
+}
+
+export default function CountView(props: Props) {
   return (
-    <View style={styles.container}>
-      <Text>CountView</Text>
-    </View>
+    <>
+        <CountComponent name='Sabuhi'/>    
+    </>
   )
 }
 

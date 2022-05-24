@@ -11,7 +11,7 @@ export default function AppRouter() {
   return (
     <Tab.Navigator>
       <Tab.Screen 
-        name="Home" 
+        name="Главная" 
         component={HomeView} 
         options={{
             tabBarLabel: 'Home',
@@ -31,7 +31,7 @@ export default function AppRouter() {
           }}
       />
       <Tab.Screen 
-        name="Count" 
+        name="Счётчик" 
         component={CountView} 
         options={{
             tabBarLabel: 'Count',
