@@ -15,7 +15,6 @@ export default function SignInView() {
         style={styles.image}
     >
     <View style={styles.root}>
-        
         <View style={styles.container}> 
             <Text h2 style={{marginBottom: 10, textAlign: 'center'}}>Авторизация</Text>
             <Input
@@ -28,7 +27,6 @@ export default function SignInView() {
                 secureTextEntry
             />
         </View>
-        
     </View>
     </ImageBackground>
     </>
@@ -37,14 +35,14 @@ export default function SignInView() {
 
 const styles = StyleSheet.create({
     root: {
-        
+        flex: 1,
     },
     container: {
         backgroundColor: 'rgba(255, 255, 255, 0.7)',
         borderRadius: 20,
         margin: 15,
-        marginTop: '60%',
-        paddingHorizontal: 24,
+        marginTop: '80%',
+        paddingHorizontal: 25,
     },
     image: {
         height: screenHeight,

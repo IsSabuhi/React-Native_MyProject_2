@@ -20,7 +20,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   container: {
-      margin: 16,
-      width: '100%'
+      
   },
 });
