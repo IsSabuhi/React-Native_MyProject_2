@@ -2,11 +2,12 @@ import {StyleSheet, View } from 'react-native'
 import React, { useState } from 'react'
 import { Button, Text } from '@rneui/base';
 
-interface Props {
+interface IProps {
     name: string;
 }
 
-export default function CountComponent(props: Props) {
+
+export default function CountComponent(props: IProps) {
 
     const [count, setCount] = useState(0);
 

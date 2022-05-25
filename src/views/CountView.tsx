@@ -10,17 +10,12 @@ interface Props {
 export default function CountView(props: Props) {
   return (
     <>
-        <CountComponent name='Sabuhi'/>    
+      <CountComponent name='Sabuhi'/>    
     </>
   )
 }
 
 
 const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: '#fff',
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
-  });
+  
+});

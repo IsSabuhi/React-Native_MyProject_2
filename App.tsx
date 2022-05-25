@@ -8,9 +8,8 @@ export default function App() {
   return (
     <>
       <NavigationContainer>
-        <TabRouter/>
-        {/* <DrawerRouter/> */}
-        <StatusBar style="auto" />
+        {/* <TabRouter/> */}
+        <DrawerRouter/>
       </NavigationContainer>
     </>
   );
